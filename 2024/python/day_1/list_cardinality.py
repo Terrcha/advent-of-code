@@ -8,7 +8,7 @@ def main():
         for line in _file:
             stripped = line.strip().replace(" ", ",").split(",")
             first, last = stripped[0], stripped[-1]
-            (data["col_1"].append(int(first)),)
+            (data["col_1"].append(int(first)))
             data["col_2"].append(int(last))
 
         count = 0
